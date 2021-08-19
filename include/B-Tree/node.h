@@ -5,6 +5,8 @@
 #ifndef B_TREE_NODE_H
 #define B_TREE_NODE_H
 
+#include <utility>
+
 namespace fefu {
     template<typename T, typename K>
     class Node {
